@@ -66,4 +66,8 @@ while True:
 
 
 
-#find a way to move the camera
+#external libraries: Trimesh, Numpy
+#btw please do not render stl files with a a high number of vertices and edges. 
+#This renderer is a piece of garbage and unoptimized. 
+#Usually OpenGL and Vulkan are used to render 3D projections. 
+#I just made this to get  a better understanding of 3D projections.
